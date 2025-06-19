@@ -2,7 +2,7 @@
 
 ## 🔍 Introduction
 
-**AutoWAFuzzer** .....
+**AutoWAFuzzer** is a novel multi-agent framework designed for automated Web Application Firewall (WAF) penetration testing. It integrates Large Language Models (LLMs), Reinforcement Learning (A2C), and Retrieval-Augmented Generation (RAG) using threat intelligence from MISP, enabling context-aware and adaptive payload generation against both rule-based and machine learning-based WAFs.
 
 ## 📊 Data
 
@@ -11,6 +11,13 @@ We provide curated and pre-processed datasets for reproducible evaluation:
 * **xxxx**
 * **xxxx**
 * **xxxxx**
+
+| Source         | Use                                | Type  | Size            |
+|----------------|-------------------------------------|-------|------------------|
+| **MISP**       | Threat-informed retrieval (RAG)     | SQLi  | 1,500 samples    |
+|                |                                     | XSS   | 26,000 samples   |
+| **Attack Grammars** ([11]) | RL/LLM fine-tuning              | SQLi  | 1 million samples |
+|                |                                     | XSS   | 1 million samples |
 
 > Download links and formats are available in the `data/` folder.
 
